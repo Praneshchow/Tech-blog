@@ -2,8 +2,15 @@ import './Blog.css'
 
 const Blog = () => {
     return (
-        <div>
+        <div className='blog'>
+            <div className='posts-container'>
+
+            </div>
             
+            <div className='cart-container'>
+
+            </div>
+
         </div>
     );
 };

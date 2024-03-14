@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Mr. Raju",
+        "title": "How to get your first job as a self-taught programmer",
+        "tag": "#beginners #programming",
+        "time": "05",
+        "img": "/public/images/1.jpg",
+        "icon": "/public/images/boy1.png"
+    },
+    {
+        "id": 2,
+        "name": "Mrs. Setara",
+        "title": "How to get your first job as a self-taught programmer",
+        "tag": "#beginners #programming",
+        "time": "10",
+        "img": "/public/images/2.jpg",
+        "icon": "/public/images/girl1.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Mina Mostofa",
+        "title": "How to get your first job as a self-taught programmer",
+        "tag": "#beginners #programming",
+        "time": "12",
+        "img": "/public/images/3.jpg",
+        "icon": "/public/images/girl2.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Naruto",
+        "title": "How to get your first job as a self-taught programmer",
+        "tag": "#beginners #programming",
+        "time": "15",
+        "img": "/public/images/4.jpg",
+        "icon": "/public/images/boy2.png"
+    }
+]
