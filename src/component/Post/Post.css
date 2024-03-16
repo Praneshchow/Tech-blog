@@ -1,0 +1,47 @@
+.post {
+    width: 800px;
+    height: 845px;
+}
+.post img{
+    width: 800px;
+    height: 450px;
+}
+.profile-line{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.profile{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.profile .icon{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    padding: 10px;
+}
+.bookmark{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.mark-as-read{
+    color: #787fff;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    cursor: pointer;
+    border: none;
+    background-color: transparent; 
+}
+.mark-as-read:hover {
+    color: #4e56fe;
+    font-weight: 600;
+  }
+.tag{
+    opacity: 0.6;
+}
+
