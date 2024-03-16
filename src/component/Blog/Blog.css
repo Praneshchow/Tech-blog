@@ -1,5 +1,22 @@
 .blog{
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 150px;
+    padding-right: 150px;
     padding-top: 40px;
+    display: flex;
+    width: 100%;
+}
+.bookmark-container{
+    width: 300px;
+    padding-left: 40px;
+}
+.bookmark-container .time{
+    background-color: #6047EC;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+.bookmark-container .bookmark-blog{
+    padding: 20px;
+    border-radius: 5px;
+    border: #6047EC solid 2px;
 }

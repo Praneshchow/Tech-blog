@@ -4,7 +4,8 @@ import { faBookmark, faCheck } from '@fortawesome/free-solid-svg-icons'
 
 const Post = (props) => {
     const {id, name, title, tag, time, img, icon} = props.post;        // Object propertise. 
-
+    // const addTime = props.addTime;
+    const handleTime = props.handleReadTime;
     return (
         <div className='post'>
             <img src={img} alt="" />
@@ -21,7 +22,8 @@ const Post = (props) => {
             </div>
             <h1>{title}</h1>
             <h5 className='tag'>{tag}</h5>
-            <span className='mark-as-read'>Mark as Read <FontAwesomeIcon icon={faCheck} /></span>
+            <span onClick={() => handleTime(time)} className='mark-as-read'>
+            Mark as Read <FontAwesomeIcon icon={faCheck} /></span>
         </div>
     );
 };
