@@ -14,9 +14,27 @@
     padding: 10px 20px;
     border-radius: 5px;
     text-align: center;
+    max-width: 100%;
 }
 .bookmark-container .bookmark-blog{
     padding: 20px;
     border-radius: 5px;
     border: #6047EC solid 2px;
+    max-width: 100%;
 }
+/* Responsive Design.  */
+@media screen and (max-width: 992px) {
+    .blog {
+      max-width: 100%;
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      height: 400px;
+    }
+    .bookmark-container{
+        max-width: 100%;
+    }
+  }
+
+
+

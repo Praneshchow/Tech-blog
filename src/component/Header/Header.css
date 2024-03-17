@@ -1,5 +1,6 @@
 .header{
     height:100px;
+    max-width: 100%;
     background-color: black;
     display: flex;
     justify-content: space-between;
@@ -12,6 +13,7 @@
     align-items: center;
     justify-content: center;
     gap: 30px;
+    padding-right: 20px;
 }
 
 .header a{
@@ -22,3 +24,10 @@
     color: aqua;
 }
 
+@media screen and (max-width: 992px) {
+    .header {
+      width: 100%;
+      padding-left: 20px;
+      font-size: small;
+    }
+  }

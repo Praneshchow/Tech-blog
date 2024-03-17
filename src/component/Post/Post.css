@@ -1,10 +1,11 @@
 .post {
     width: 800px;
-    height: 845px;
+    height: 1000px;
+    padding-bottom: 30px;
 }
 .post img{
-    width: 800px;
-    height: 450px;
+    max-width: 100%;
+    max-height: 100%;
 }
 .profile-line{
     display: flex;
@@ -43,5 +44,19 @@
   }
 .tag{
     opacity: 0.6;
+}
+
+/* Responsive Design  */
+@media screen and (max-width: 992px) {
+    div.post {
+      max-width: 100%;
+      padding-right: 20px;
+      padding-left: 20px;
+      height: auto;
+    } 
+    .post img{
+        max-width: 100%;
+        height: auto;
+    }
 }
 

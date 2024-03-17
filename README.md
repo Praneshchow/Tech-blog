@@ -11,8 +11,11 @@ React project run: `npm run dev`
 ### Font setup: 
 
 ` npm i --save @fortawesome/fontawesome-svg-core
+
 npm install --save @fortawesome/free-solid-svg-icons
+
 npm install --save @fortawesome/react-fontawesome `
+
 
 I used Font Awesome icons for the project. 
 Link: https://fontawesome.com/search?q=bookmark&o=r
