@@ -5,8 +5,8 @@
         "title": "How to get your first job as a self-taught programmer",
         "tag": "#beginners #programming",
         "time": "05",
-        "img": "/public/images/1.jpg",
-        "icon": "/public/images/boy1.png"
+        "img": "/images/1.jpg",
+        "icon": "/images/boy1.png"
     },
     {
         "id": 2,
@@ -14,8 +14,8 @@
         "title": "How to get your first job as a self-taught programmer",
         "tag": "#beginners #programming",
         "time": "10",
-        "img": "/public/images/2.jpg",
-        "icon": "/public/images/girl1.jpg"
+        "img": "/images/2.jpg",
+        "icon": "/images/girl1.jpg"
     },
     {
         "id": 3,
@@ -23,8 +23,8 @@
         "title": "How to get your first job as a self-taught programmer",
         "tag": "#beginners #programming",
         "time": "12",
-        "img": "/public/images/3.jpg",
-        "icon": "/public/images/girl2.jpg"
+        "img": "/images/3.jpg",
+        "icon": "/images/girl2.jpg"
     },
     {
         "id": 4,
@@ -32,7 +32,7 @@
         "title": "How to get your first job as a self-taught programmer",
         "tag": "#beginners #programming",
         "time": "15",
-        "img": "/public/images/4.jpg",
-        "icon": "/public/images/boy2.png"
+        "img": "/images/4.jpg",
+        "icon": "/images/boy2.png"
     }
 ]
